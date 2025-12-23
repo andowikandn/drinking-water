@@ -1,0 +1,65 @@
+{
+    "name": "test_requirement_field",
+    "status": "passed",
+    "description": "Verify error field is empty",
+    "steps": [
+        {
+            "name": "User verify form page",
+            "status": "passed",
+            "start": 1766505294758,
+            "stop": 1766505294794
+        },
+        {
+            "name": "User click submit button",
+            "status": "passed",
+            "start": 1766505294794,
+            "stop": 1766505294895
+        },
+        {
+            "name": "User verify required field",
+            "status": "passed",
+            "start": 1766505294895,
+            "stop": 1766505294940
+        }
+    ],
+    "start": 1766505294758,
+    "stop": 1766505294940,
+    "uuid": "a16e7421-e558-4f04-b043-bb522e905717",
+    "historyId": "14922614ac7bfc1038a7d01b71ec9ba9",
+    "testCaseId": "14922614ac7bfc1038a7d01b71ec9ba9",
+    "fullName": "tests.test_form#test_requirement_field",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_form"
+        },
+        {
+            "name": "host",
+            "value": "MacBook-Air.local"
+        },
+        {
+            "name": "thread",
+            "value": "26447-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "tests.test_form"
+        }
+    ],
+    "titlePath": [
+        "tests",
+        "test_form.py"
+    ]
+}

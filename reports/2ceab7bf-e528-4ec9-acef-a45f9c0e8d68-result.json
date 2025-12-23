@@ -1,0 +1,149 @@
+{
+    "name": "test_input_then_verify_form",
+    "status": "passed",
+    "description": "Verify form register submit view modal",
+    "steps": [
+        {
+            "name": "User verify form page",
+            "status": "passed",
+            "start": 1766505310803,
+            "stop": 1766505310830
+        },
+        {
+            "name": "User input first name",
+            "status": "passed",
+            "start": 1766505310830,
+            "stop": 1766505310851
+        },
+        {
+            "name": "User input last name",
+            "status": "passed",
+            "start": 1766505310851,
+            "stop": 1766505310857
+        },
+        {
+            "name": "User input user email",
+            "status": "passed",
+            "start": 1766505310857,
+            "stop": 1766505310863
+        },
+        {
+            "name": "User select gender",
+            "status": "passed",
+            "start": 1766505310863,
+            "stop": 1766505310863
+        },
+        {
+            "name": "User input mobile number",
+            "status": "passed",
+            "start": 1766505311090,
+            "stop": 1766505311096
+        },
+        {
+            "name": "User input date of birth",
+            "status": "passed",
+            "start": 1766505311096,
+            "stop": 1766505311175
+        },
+        {
+            "name": "User input subject",
+            "status": "passed",
+            "start": 1766505311175,
+            "stop": 1766505311476
+        },
+        {
+            "name": "User remove a value subject Arts",
+            "status": "passed",
+            "start": 1766505311476,
+            "stop": 1766505311521
+        },
+        {
+            "name": "User select hobbies",
+            "status": "passed",
+            "start": 1766505311521,
+            "stop": 1766505311654
+        },
+        {
+            "name": "User upload picture",
+            "status": "passed",
+            "start": 1766505311654,
+            "stop": 1766505311668
+        },
+        {
+            "name": "User input current address",
+            "status": "passed",
+            "start": 1766505311668,
+            "stop": 1766505311672
+        },
+        {
+            "name": "User select state Rajasthan",
+            "status": "passed",
+            "start": 1766505311673,
+            "stop": 1766505311739
+        },
+        {
+            "name": "User select city Jaiselmer",
+            "status": "passed",
+            "start": 1766505311739,
+            "stop": 1766505311804
+        },
+        {
+            "name": "User click submit button",
+            "status": "passed",
+            "start": 1766505311805,
+            "stop": 1766505311843
+        },
+        {
+            "name": "User verify header modal page",
+            "status": "passed",
+            "start": 1766505311843,
+            "stop": 1766505311851
+        },
+        {
+            "name": "User close modal button",
+            "status": "passed",
+            "start": 1766505311851,
+            "stop": 1766505312260
+        }
+    ],
+    "start": 1766505310803,
+    "stop": 1766505312260,
+    "uuid": "26aab795-9ff9-45cf-83df-6935232776d7",
+    "historyId": "ab6f90c2a3fa36ac84acceb0963d3f7a",
+    "testCaseId": "ab6f90c2a3fa36ac84acceb0963d3f7a",
+    "fullName": "tests.test_form#test_input_then_verify_form",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_form"
+        },
+        {
+            "name": "host",
+            "value": "MacBook-Air.local"
+        },
+        {
+            "name": "thread",
+            "value": "26447-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "tests.test_form"
+        }
+    ],
+    "titlePath": [
+        "tests",
+        "test_form.py"
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "name": "test_invalid_field",
+    "status": "passed",
+    "description": "Verify error field is invalid",
+    "steps": [
+        {
+            "name": "User verify form page",
+            "status": "passed",
+            "start": 1766505298590,
+            "stop": 1766505298628
+        },
+        {
+            "name": "User input first name",
+            "status": "passed",
+            "start": 1766505298628,
+            "stop": 1766505298652
+        },
+        {
+            "name": "User input last name",
+            "status": "passed",
+            "start": 1766505298652,
+            "stop": 1766505298659
+        },
+        {
+            "name": "User input user email",
+            "status": "passed",
+            "start": 1766505298659,
+            "stop": 1766505298665
+        },
+        {
+            "name": "User select gender",
+            "status": "passed",
+            "start": 1766505298665,
+            "stop": 1766505298665
+        },
+        {
+            "name": "User input mobile number",
+            "status": "passed",
+            "start": 1766505298765,
+            "stop": 1766505298834
+        },
+        {
+            "name": "User click submit button",
+            "status": "passed",
+            "start": 1766505298834,
+            "stop": 1766505298873
+        },
+        {
+            "name": "User verify invalid field email and mobile number",
+            "status": "passed",
+            "start": 1766505298873,
+            "stop": 1766505298878
+        }
+    ],
+    "start": 1766505298590,
+    "stop": 1766505298878,
+    "uuid": "ec55eb3d-391a-4299-8fe1-e2e943713f36",
+    "historyId": "b4305b2708edb8c88df3da79dc121ec2",
+    "testCaseId": "b4305b2708edb8c88df3da79dc121ec2",
+    "fullName": "tests.test_form#test_invalid_field",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_form"
+        },
+        {
+            "name": "host",
+            "value": "MacBook-Air.local"
+        },
+        {
+            "name": "thread",
+            "value": "26447-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "tests.test_form"
+        }
+    ],
+    "titlePath": [
+        "tests",
+        "test_form.py"
+    ]
+}

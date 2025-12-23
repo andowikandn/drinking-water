@@ -1,0 +1,101 @@
+{
+    "name": "test_remove_subject",
+    "status": "passed",
+    "description": "Verify remove a subject",
+    "steps": [
+        {
+            "name": "User verify form page",
+            "status": "passed",
+            "start": 1766505306563,
+            "stop": 1766505306582
+        },
+        {
+            "name": "User input first name",
+            "status": "passed",
+            "start": 1766505306582,
+            "stop": 1766505306600
+        },
+        {
+            "name": "User input last name",
+            "status": "passed",
+            "start": 1766505306600,
+            "stop": 1766505306605
+        },
+        {
+            "name": "User input user email",
+            "status": "passed",
+            "start": 1766505306605,
+            "stop": 1766505306610
+        },
+        {
+            "name": "User select gender",
+            "status": "passed",
+            "start": 1766505306610,
+            "stop": 1766505306610
+        },
+        {
+            "name": "User input mobile number",
+            "status": "passed",
+            "start": 1766505306783,
+            "stop": 1766505306807
+        },
+        {
+            "name": "User input date of birth",
+            "status": "passed",
+            "start": 1766505306807,
+            "stop": 1766505306842
+        },
+        {
+            "name": "User input subject",
+            "status": "passed",
+            "start": 1766505306842,
+            "stop": 1766505307244
+        },
+        {
+            "name": "User remove a value subject Commerce",
+            "status": "passed",
+            "start": 1766505307244,
+            "stop": 1766505307287
+        }
+    ],
+    "start": 1766505306563,
+    "stop": 1766505307287,
+    "uuid": "940af5f0-b71a-4dca-a5ce-42c18f28fb16",
+    "historyId": "c3af9f2d26971255127f40b356979b0d",
+    "testCaseId": "c3af9f2d26971255127f40b356979b0d",
+    "fullName": "tests.test_form#test_remove_subject",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_form"
+        },
+        {
+            "name": "host",
+            "value": "MacBook-Air.local"
+        },
+        {
+            "name": "thread",
+            "value": "26447-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "tests.test_form"
+        }
+    ],
+    "titlePath": [
+        "tests",
+        "test_form.py"
+    ]
+}
