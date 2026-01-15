@@ -1,0 +1,95 @@
+{
+    "name": "test_clear_subject",
+    "status": "passed",
+    "description": "Verify clear subjects",
+    "steps": [
+        {
+            "name": "User input first name",
+            "status": "passed",
+            "start": 1768460630464,
+            "stop": 1768460630483
+        },
+        {
+            "name": "User input last name",
+            "status": "passed",
+            "start": 1768460630483,
+            "stop": 1768460630488
+        },
+        {
+            "name": "User input user email",
+            "status": "passed",
+            "start": 1768460630488,
+            "stop": 1768460630494
+        },
+        {
+            "name": "User select gender",
+            "status": "passed",
+            "start": 1768460630494,
+            "stop": 1768460630494
+        },
+        {
+            "name": "User input mobile number",
+            "status": "passed",
+            "start": 1768460630720,
+            "stop": 1768460630724
+        },
+        {
+            "name": "User input date of birth",
+            "status": "passed",
+            "start": 1768460630724,
+            "stop": 1768460630758
+        },
+        {
+            "name": "User input subject",
+            "status": "passed",
+            "start": 1768460630758,
+            "stop": 1768460631053
+        },
+        {
+            "name": "User clear subject",
+            "status": "passed",
+            "start": 1768460631053,
+            "stop": 1768460631083
+        }
+    ],
+    "start": 1768460630436,
+    "stop": 1768460631083,
+    "uuid": "fd0340ca-dc6b-4aa3-bec7-200c4182967f",
+    "historyId": "74998f56ae1d3096977d3783a0202e93",
+    "testCaseId": "74998f56ae1d3096977d3783a0202e93",
+    "fullName": "tests.test_form#test_clear_subject",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_form"
+        },
+        {
+            "name": "host",
+            "value": "MacBook-Air.local"
+        },
+        {
+            "name": "thread",
+            "value": "312-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "tests.test_form"
+        }
+    ],
+    "titlePath": [
+        "tests",
+        "test_form.py"
+    ]
+}

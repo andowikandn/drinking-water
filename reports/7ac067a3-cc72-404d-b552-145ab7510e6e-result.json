@@ -1,0 +1,89 @@
+{
+    "name": "test_invalid_field",
+    "status": "passed",
+    "description": "Verify error field is invalid",
+    "steps": [
+        {
+            "name": "User input first name",
+            "status": "passed",
+            "start": 1768460627517,
+            "stop": 1768460627537
+        },
+        {
+            "name": "User input last name",
+            "status": "passed",
+            "start": 1768460627537,
+            "stop": 1768460627542
+        },
+        {
+            "name": "User input user email",
+            "status": "passed",
+            "start": 1768460627542,
+            "stop": 1768460627547
+        },
+        {
+            "name": "User select gender",
+            "status": "passed",
+            "start": 1768460627547,
+            "stop": 1768460627547
+        },
+        {
+            "name": "User input mobile number",
+            "status": "passed",
+            "start": 1768460627690,
+            "stop": 1768460627722
+        },
+        {
+            "name": "User click submit button",
+            "status": "passed",
+            "start": 1768460627722,
+            "stop": 1768460627767
+        },
+        {
+            "name": "User verify invalid field email and mobile number",
+            "status": "passed",
+            "start": 1768460627767,
+            "stop": 1768460627771
+        }
+    ],
+    "start": 1768460627488,
+    "stop": 1768460627771,
+    "uuid": "207221a2-b894-447f-8dff-5f0105435da6",
+    "historyId": "b4305b2708edb8c88df3da79dc121ec2",
+    "testCaseId": "b4305b2708edb8c88df3da79dc121ec2",
+    "fullName": "tests.test_form#test_invalid_field",
+    "labels": [
+        {
+            "name": "parentSuite",
+            "value": "tests"
+        },
+        {
+            "name": "suite",
+            "value": "test_form"
+        },
+        {
+            "name": "host",
+            "value": "MacBook-Air.local"
+        },
+        {
+            "name": "thread",
+            "value": "312-MainThread"
+        },
+        {
+            "name": "framework",
+            "value": "pytest"
+        },
+        {
+            "name": "language",
+            "value": "cpython3"
+        },
+        {
+            "name": "package",
+            "value": "tests.test_form"
+        }
+    ],
+    "titlePath": [
+        "tests",
+        "test_form.py"
+    ]
+}

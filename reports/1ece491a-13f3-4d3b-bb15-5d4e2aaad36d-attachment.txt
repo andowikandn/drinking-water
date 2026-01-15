@@ -1,0 +1,2 @@
+Resolved path: /Users/ahmadwikandono/Documents/learnplaywright/playwright-form-pyeaa/pages/asset/FileImage.png
+Exists: True

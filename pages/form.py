@@ -1,5 +1,7 @@
 import allure
 from locators.form import FormLocators, SubmitLocators
+from pathlib import Path
+import re
 from playwright.sync_api import Page, expect
 from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 
@@ -130,12 +132,13 @@ class FormPages:
 
     def upload_picture(self):
         with allure.step('User upload picture'):
-            file_path = '/Users/andowikandono/Desktop/FileImage.png'
+            file_path = Path(__file__).resolve().parent / "asset" / "FileImage.png"
             file_input = self.page.locator(FormLocators.upload_picture)
             file_input.set_input_files(file_path)
+            expect(file_input).to_have_value(re.compile(r"FileImage\.png"))
+            print("Resolved path:", file_path.resolve())
+            print("Exists:", file_path.exists())
 
-            value = file_input.input_value()
-            assert 'FileImage.png' in value
             
     def input_current_address(self, address: str):
         with allure.step('User input current address'):
