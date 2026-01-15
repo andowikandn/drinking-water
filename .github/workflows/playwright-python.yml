@@ -27,7 +27,8 @@ jobs:
 
       - name: Run Playwright tests
         run: |
-          pytest -v
+          pytest
+          allure serve reports
 
       # upload Playwright traces / screenshots
       - name: Upload test artifacts
