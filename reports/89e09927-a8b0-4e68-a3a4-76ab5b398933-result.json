@@ -4,27 +4,21 @@
     "description": "Verify error field is empty",
     "steps": [
         {
-            "name": "User verify form page",
-            "status": "passed",
-            "start": 1766505294758,
-            "stop": 1766505294794
-        },
-        {
             "name": "User click submit button",
             "status": "passed",
-            "start": 1766505294794,
-            "stop": 1766505294895
+            "start": 1768451092848,
+            "stop": 1768451093044
         },
         {
             "name": "User verify required field",
             "status": "passed",
-            "start": 1766505294895,
-            "stop": 1766505294940
+            "start": 1768451093044,
+            "stop": 1768451093057
         }
     ],
-    "start": 1766505294758,
-    "stop": 1766505294940,
-    "uuid": "a16e7421-e558-4f04-b043-bb522e905717",
+    "start": 1768451092794,
+    "stop": 1768451093057,
+    "uuid": "62c52e0f-f136-4a66-be9c-1a17f3f9897f",
     "historyId": "14922614ac7bfc1038a7d01b71ec9ba9",
     "testCaseId": "14922614ac7bfc1038a7d01b71ec9ba9",
     "fullName": "tests.test_form#test_requirement_field",
@@ -43,7 +37,7 @@
         },
         {
             "name": "thread",
-            "value": "26447-MainThread"
+            "value": "95408-MainThread"
         },
         {
             "name": "framework",

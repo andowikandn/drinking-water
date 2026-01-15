@@ -1,15 +1,32 @@
 import allure
 from locators.form import FormLocators, SubmitLocators
 from playwright.sync_api import Page, expect
+from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 
 class FormPages:
     def __init__(self, page: Page):
         self.page = page
 
     def verify_form_page(self):
-        with allure.step('User verify form page'):
-            expect(self.page.locator(FormLocators.header_form_page)).to_be_visible(timeout=10000)
-            expect(self.page).to_have_url("https://demoqa.com/automation-practice-form")
+        try:
+            self.page.wait_for_load_state("domcontentloaded", timeout=10000)
+            expect(
+                self.page.locator(FormLocators.header_form_page)
+            ).to_be_visible(timeout=10000)
+
+            expect(self.page).to_have_url(
+                "https://demoqa.com/automation-practice-form"
+            )
+
+        except PlaywrightTimeoutError as e:
+            allure.attach(
+                self.page.screenshot(),
+                name="timeout-error",
+                attachment_type=allure.attachment_type.PNG
+            )
+            raise AssertionError(
+                "Timeout while waiting for form page to load (domcontentloaded)"
+            ) from e
     
     def input_first_name(self, firstname: str):
         with allure.step('User input first name'):
@@ -36,10 +53,11 @@ class FormPages:
             "Female": "2",
             "Other": "3"
         }
+            
         label = self.page.locator(
             FormLocators.gender_label.format(mapping[selectgender])
         )
-        
+
         label.scroll_into_view_if_needed()
         label.click()
 

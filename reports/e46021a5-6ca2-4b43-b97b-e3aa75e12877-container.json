@@ -1,0 +1,24 @@
+{
+    "uuid": "d514cc16-1f60-4f46-9295-bb30a7fbeef8",
+    "children": [
+        "cb0be353-fc2a-4b8a-ad04-1152aa08c8d2"
+    ],
+    "befores": [
+        {
+            "name": "browser",
+            "status": "passed",
+            "start": 1768451102825,
+            "stop": 1768451105625
+        }
+    ],
+    "afters": [
+        {
+            "name": "browser::0",
+            "status": "passed",
+            "start": 1768451107021,
+            "stop": 1768451107053
+        }
+    ],
+    "start": 1768451102824,
+    "stop": 1768451107053
+}

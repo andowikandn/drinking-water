@@ -4,57 +4,51 @@
     "description": "Verify error field is invalid",
     "steps": [
         {
-            "name": "User verify form page",
-            "status": "passed",
-            "start": 1766505298590,
-            "stop": 1766505298628
-        },
-        {
             "name": "User input first name",
             "status": "passed",
-            "start": 1766505298628,
-            "stop": 1766505298652
+            "start": 1768451096051,
+            "stop": 1768451096071
         },
         {
             "name": "User input last name",
             "status": "passed",
-            "start": 1766505298652,
-            "stop": 1766505298659
+            "start": 1768451096071,
+            "stop": 1768451096076
         },
         {
             "name": "User input user email",
             "status": "passed",
-            "start": 1766505298659,
-            "stop": 1766505298665
+            "start": 1768451096076,
+            "stop": 1768451096081
         },
         {
             "name": "User select gender",
             "status": "passed",
-            "start": 1766505298665,
-            "stop": 1766505298665
+            "start": 1768451096081,
+            "stop": 1768451096081
         },
         {
             "name": "User input mobile number",
             "status": "passed",
-            "start": 1766505298765,
-            "stop": 1766505298834
+            "start": 1768451096282,
+            "stop": 1768451096287
         },
         {
             "name": "User click submit button",
             "status": "passed",
-            "start": 1766505298834,
-            "stop": 1766505298873
+            "start": 1768451096287,
+            "stop": 1768451096363
         },
         {
             "name": "User verify invalid field email and mobile number",
             "status": "passed",
-            "start": 1766505298873,
-            "stop": 1766505298878
+            "start": 1768451096363,
+            "stop": 1768451096366
         }
     ],
-    "start": 1766505298590,
-    "stop": 1766505298878,
-    "uuid": "ec55eb3d-391a-4299-8fe1-e2e943713f36",
+    "start": 1768451096022,
+    "stop": 1768451096366,
+    "uuid": "33b83348-ea7f-45e8-a855-8998d2660f09",
     "historyId": "b4305b2708edb8c88df3da79dc121ec2",
     "testCaseId": "b4305b2708edb8c88df3da79dc121ec2",
     "fullName": "tests.test_form#test_invalid_field",
@@ -73,7 +67,7 @@
         },
         {
             "name": "thread",
-            "value": "26447-MainThread"
+            "value": "95408-MainThread"
         },
         {
             "name": "framework",

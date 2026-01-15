@@ -4,63 +4,57 @@
     "description": "Verify clear subjects",
     "steps": [
         {
-            "name": "User verify form page",
-            "status": "passed",
-            "start": 1766505302446,
-            "stop": 1766505302475
-        },
-        {
             "name": "User input first name",
             "status": "passed",
-            "start": 1766505302475,
-            "stop": 1766505302495
+            "start": 1768451098994,
+            "stop": 1768451099013
         },
         {
             "name": "User input last name",
             "status": "passed",
-            "start": 1766505302495,
-            "stop": 1766505302501
+            "start": 1768451099013,
+            "stop": 1768451099018
         },
         {
             "name": "User input user email",
             "status": "passed",
-            "start": 1766505302501,
-            "stop": 1766505302505
+            "start": 1768451099018,
+            "stop": 1768451099023
         },
         {
             "name": "User select gender",
             "status": "passed",
-            "start": 1766505302505,
-            "stop": 1766505302505
+            "start": 1768451099023,
+            "stop": 1768451099023
         },
         {
             "name": "User input mobile number",
             "status": "passed",
-            "start": 1766505302667,
-            "stop": 1766505302673
+            "start": 1768451099101,
+            "stop": 1768451099135
         },
         {
             "name": "User input date of birth",
             "status": "passed",
-            "start": 1766505302673,
-            "stop": 1766505302712
+            "start": 1768451099135,
+            "stop": 1768451099171
         },
         {
             "name": "User input subject",
             "status": "passed",
-            "start": 1766505302712,
-            "stop": 1766505303105
+            "start": 1768451099171,
+            "stop": 1768451099480
         },
         {
             "name": "User clear subject",
             "status": "passed",
-            "start": 1766505303105,
-            "stop": 1766505303138
+            "start": 1768451099480,
+            "stop": 1768451099513
         }
     ],
-    "start": 1766505302445,
-    "stop": 1766505303138,
-    "uuid": "b3f43cec-a6c0-48fe-8f19-62b9274756f9",
+    "start": 1768451098967,
+    "stop": 1768451099513,
+    "uuid": "fc3608d5-035f-45cc-8f1f-bf29608465f6",
     "historyId": "74998f56ae1d3096977d3783a0202e93",
     "testCaseId": "74998f56ae1d3096977d3783a0202e93",
     "fullName": "tests.test_form#test_clear_subject",
@@ -79,7 +73,7 @@
         },
         {
             "name": "thread",
-            "value": "26447-MainThread"
+            "value": "95408-MainThread"
         },
         {
             "name": "framework",

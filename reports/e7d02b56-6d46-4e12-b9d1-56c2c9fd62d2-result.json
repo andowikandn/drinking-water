@@ -4,63 +4,57 @@
     "description": "Verify remove a subject",
     "steps": [
         {
-            "name": "User verify form page",
-            "status": "passed",
-            "start": 1766505306563,
-            "stop": 1766505306582
-        },
-        {
             "name": "User input first name",
             "status": "passed",
-            "start": 1766505306582,
-            "stop": 1766505306600
+            "start": 1768451102242,
+            "stop": 1768451102262
         },
         {
             "name": "User input last name",
             "status": "passed",
-            "start": 1766505306600,
-            "stop": 1766505306605
+            "start": 1768451102262,
+            "stop": 1768451102267
         },
         {
             "name": "User input user email",
             "status": "passed",
-            "start": 1766505306605,
-            "stop": 1766505306610
+            "start": 1768451102267,
+            "stop": 1768451102273
         },
         {
             "name": "User select gender",
             "status": "passed",
-            "start": 1766505306610,
-            "stop": 1766505306610
+            "start": 1768451102273,
+            "stop": 1768451102273
         },
         {
             "name": "User input mobile number",
             "status": "passed",
-            "start": 1766505306783,
-            "stop": 1766505306807
+            "start": 1768451102431,
+            "stop": 1768451102440
         },
         {
             "name": "User input date of birth",
             "status": "passed",
-            "start": 1766505306807,
-            "stop": 1766505306842
+            "start": 1768451102440,
+            "stop": 1768451102473
         },
         {
             "name": "User input subject",
             "status": "passed",
-            "start": 1766505306842,
-            "stop": 1766505307244
+            "start": 1768451102473,
+            "stop": 1768451102761
         },
         {
             "name": "User remove a value subject Commerce",
             "status": "passed",
-            "start": 1766505307244,
-            "stop": 1766505307287
+            "start": 1768451102761,
+            "stop": 1768451102796
         }
     ],
-    "start": 1766505306563,
-    "stop": 1766505307287,
-    "uuid": "940af5f0-b71a-4dca-a5ce-42c18f28fb16",
+    "start": 1768451102211,
+    "stop": 1768451102796,
+    "uuid": "28222e17-1995-463a-8f22-e62f6ab53cec",
     "historyId": "c3af9f2d26971255127f40b356979b0d",
     "testCaseId": "c3af9f2d26971255127f40b356979b0d",
     "fullName": "tests.test_form#test_remove_subject",
@@ -79,7 +73,7 @@
         },
         {
             "name": "thread",
-            "value": "26447-MainThread"
+            "value": "95408-MainThread"
         },
         {
             "name": "framework",
